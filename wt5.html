@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-image:url("C:\Users\dhanu\Downloads\images.jpg"); 
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #020000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .menu {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 700px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .menu h1 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .menu h2 {
+            color: #FFD700;
+            margin-top: 20px;
+            font-size: 1.5em;
+            border-bottom: 1px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .menu ol {
+            list-style: none;
+            padding: 0;
+        }
+        .menu ol > li {
+            margin: 20px 0;
+        }
+        .menu ol ol {
+            padding-left: 20px;
+        }
+        .menu ol ol li {
+            margin: 10px 0;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Restaurant Menu</h1>
+        <ol>
+            <li>
+                <h2>Appetizers</h2>
+                <ol>
+                    <li class="menu-item"><span>Bruschetta</span><span>₹50</span></li>
+                    <li class="menu-item"><span>Stuffed Mushrooms</span><span>₹10</span></li>
+                    <li class="menu-item"><span>Garlic Bread</span><span>₹5</span></li>
+                </ol>
+            </li>
+            <li>
+                <h2>Main Courses</h2>
+                <ol>
+                    <li class="menu-item"><span>Grilled Chicken</span><span>₹15</span></li>
+                    <li class="menu-item"><span>Spaghetti Carbonara</span><span>₹14</span></li>
+                    <li class="menu-item"><span>Margherita Pizza</span><span>₹12</span></li>
+                </ol>
+            </li>
+            <li>
+                <h2>Desserts</h2>
+                <ol>
+                    <li class="menu-item"><span>Tiramisu</span><span>₹7</span></li>
+                    <li class="menu-item"><span>Cheesecake</span><span>₹10</span></li>
+                    <li class="menu-item"><span>Chocolate Mousse</span><span>₹20</span></li>
+                </ol>
+            </li>
+            <li>
+                <h2>Beverages</h2>
+                <ol>
+                    <li class="menu-item"><span>Coffee</span><span>₹3</span></li>
+                    <li class="menu-item"><span>Tea</span><span>₹2</span></li>
+                    <li class="menu-item"><span>Soda</span><span>₹2</span></li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+</body>
+</html>

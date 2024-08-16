@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Descriptions</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Replace with the path to your image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        .course-list {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 800px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .course-list h1 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .course-list dl {
+            text-align: left;
+            margin: 20px 0;
+        }
+        .course-list dt {
+            font-size: 1.5em;
+            color: #FFD700;
+            margin-top: 20px;
+        }
+        .course-list dd {
+            margin: 10px 0;
+            padding-left: 20px;
+            font-size: 1.1em;
+            line-height: 1.5;
+        }
+        .course-list dd span {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="course-list">
+        <h1>Course Descriptions</h1>
+        <dl>
+            <dt>Introduction to Computer Science</dt>
+            <dd>
+                This course covers the fundamental concepts of computer science. Topics include algorithms, data structures, software engineering, and computer systems.
+                <span>Prerequisite: None</span>
+                <span>Credits: 3</span>
+            </dd>
+            <dt>Web Development</dt>
+            <dd>
+                An introduction to web development using HTML, CSS, and JavaScript. Students will learn how to create responsive and interactive websites.
+                <span>Prerequisite: Introduction to Computer Science</span>
+                <span>Credits: 4</span>
+            </dd>
+            <dt>Data Structures and Algorithms</dt>
+            <dd>
+                This course focuses on data structures such as arrays, linked lists, stacks, queues, trees, and graphs. Algorithms for searching, sorting, and optimization are also covered.
+                <span>Prerequisite: Introduction to Computer Science</span>
+                <span>Credits: 4</span>
+            </dd>
+            <dt>Database Management Systems</dt>
+            <dd>
+                This course provides an introduction to database management systems. Topics include database design, SQL, and transaction management.
+                <span>Prerequisite: Data Structures and Algorithms</span>
+                <span>Credits: 3</span>
+            </dd>
+        </dl>
+    </div>
+</body>
+</html>

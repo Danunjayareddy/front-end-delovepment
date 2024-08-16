@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Social Media Application</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.jpg'); /* Replace with the path to your image */
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            color: #fff;
+        }
+        .app {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 700px;
+            width: 90%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .app h1 {
+            color: #FFD700;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            text-transform: uppercase;
+            border-bottom: 2px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        .app h2 {
+            color: #FFD700;
+            margin-top: 20px;
+            font-size: 1.5em;
+            border-bottom: 1px solid #FFD700;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .app ul {
+            list-style: none;
+            padding: 0;
+        }
+        .app ul > li {
+            margin: 20px 0;
+        }
+        .app ul ul {
+            padding-left: 20px;
+        }
+        .app ul ul li {
+            margin: 10px 0;
+            text-align: left;
+        }
+        .app-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .app-item img {
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .app-item-content {
+            flex-grow: 1;
+            text-align: left;
+        }
+        .app-item-content h3 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #FFD700;
+        }
+        .app-item-content p {
+            margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="app">
+        <h1>Social Media</h1>
+        <ul>
+            <li>
+                <h2>Friends</h2>
+                <ul>
+                    <li class="app-item">
+                        <img src="friend1.jpg" alt="Friend 1" width="50" height="50"> <!-- Replace with image paths -->
+                        <div class="app-item-content">
+                            <h3>John Doe</h3>
+                            <p>Hey there! How's it going?</p>
+                        </div>
+                    </li>
+                    <li class="app-item">
+                        <img src="friend2.jpg" alt="Friend 2" width="50" height="50">
+                        <div class="app-item-content">
+                            <h3>Jane Smith</h3>
+                            <p>Had a great time at the beach today!</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Groups</h2>
+                <ul>
+                    <li class="app-item">
+                        <img src="group1.jpg" alt="Group 1" width="50" height="50">
+                        <div class="app-item-content">
+                            <h3>Book Club</h3>
+                            <p>Next meeting on Friday at 5 PM.</p>
+                        </div>
+                    </li>
+                    <li class="app-item">
+                        <img src="group2.jpg" alt="Group 2" width="50" height="50">
+                        <div class="app-item-content">
+                            <h3>Hiking Enthusiasts</h3>
+                            <p>Planning a trip to the mountains this weekend.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2>Notifications</h2>
+                <ul>
+                    <li class="app-item">
+                        <img src="notification1.jpg" alt="Notification 1" width="50" height="50">
+                        <div class="app-item-content">
+                            <h3>System</h3>
+                            <p>Your profile has been updated successfully.</p>
+                        </div>
+                    </li>
+                    <li class="app-item">
+                        <img src="notification2.jpg" alt="Notification 2" width="50" height="50">
+                        <div class="app-item-content">
+                            <h3>System</h3>
+                            <p>New friend request from Alice Johnson.</p>
+                        </div>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
